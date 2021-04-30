@@ -4,3 +4,5 @@
 *.pyc
 build/
 dist/
+create/
+.venv/
