@@ -14,7 +14,7 @@ env:
   WAIT_TIMEOUT_SECS: 300
 
 jobs:
-  test: Test Suite
+  test: 
     steps:
       - name: Checkout git repository
         uses: actions/checkout@v2
@@ -79,7 +79,7 @@ jobs:
         run: poetry build
 
       - name: Publish to PyPI 📦
-        if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+        if: github.event_name == 'push' # && startsWith(github.ref, 'refs/tags')
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
