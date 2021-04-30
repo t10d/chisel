@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/chisel/__init__.py
+src/chisel/core.py
+src/kingdom_chisel.egg-info/PKG-INFO
+src/kingdom_chisel.egg-info/SOURCES.txt
+src/kingdom_chisel.egg-info/dependency_links.txt
+src/kingdom_chisel.egg-info/top_level.txt
