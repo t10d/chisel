@@ -3,6 +3,7 @@ name = "kingdom-chisel"
 version = "0.0.1dev2"
 license = "MIT"
 description = "Common toolkit for python web backends"
+readme = "README.md"
 authors = [
     "Rui Conti <rui@t10.digital>",
     "Rafael Melo <rafael@t10.digital>"
